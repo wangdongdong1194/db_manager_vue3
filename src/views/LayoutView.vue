@@ -88,6 +88,7 @@
   .databaseComponent {
     height: 100%;
     overflow: scroll;
+    user-select: none;
   }
 
   .gapComponent {
@@ -97,5 +98,6 @@
 
   .datalistComponent {
     flex: 1;
+    user-select: none;
   }
 </style>
